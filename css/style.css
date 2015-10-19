@@ -1,52 +1,50 @@
 .jumbotron{
-    background-color: white;
-    padding-bottom: 0px;
+    background-color: white; /* กำหนดพื้นหลังสีขาว  */
+    padding-bottom: 0px; /* ระยะห่างด้านล่างระหว่างขอบของวัตถุ 0px */
 }
 
 
 #content{
-    margin-bottom: 20px;
+    margin-bottom: 20px; /*   */
 }
 
 #content > h2{
-    text-align: center;
+    text-align: center; /* กำหนดให้หัวข้อระดับ 2 อยู่ตรงกลาง  */
 }
 #content > p{
-    text-align: center;
+    text-align: center; /* กำหนดให้ข้อความในแท็ก p ของ id content อยู่ตรงกลาง  */
 }
 
 #content .img-responsive{
-    margin: 0 auto;
+    margin: 0 auto; /*   */
 }
 
-
-
 .panel-primary>.panel-heading > h4{
-    text-align: center;
+    text-align: center; /* กำหนดใหหัวข้อระดับ 4 อยู่ตรงกลาง  */
 }
 
 .footer{
-    background-color: #286090;
-    padding: 10px 0 0 0;
+    background-color: #286090; /* กำหนดพื้นหลังในส่วน footer เป็นสี #286090 */
+    padding: 10px 0 0 0; /* ระยะห่างระหว่างขอบของวัตถุ ด้านบน 10px */
 }
 
 .footer .copyright > p{
-    text-align: center;
-    color: white;
+    text-align: center; /* กำหนดให้ข้อความในแท็ก p ของคลาส copyright ภายใต้คลาส footer อยู่ตรงกลาง  */
+    color: white; /* กำหนดสีข้อความข้อความในแท็ก p ของคลาส copyright ภายใต้คลาส footer เป็นสีขาว  */
 }
 
 .content-usability-table-center{
-    text-align: center;
+    text-align: center; /* กำหนดให้ข้อความให้อยู่ตรงกลาง  */
 }
 .content-usability-table-center .table.table-bordered>tbody>tr>th{
-    text-align: center;
+    text-align: center; /* กำหนดให้ข้อความให้อยู่ตรงกลาง  */
 }
 
 
 .h4-text-align{
-    text-align: center;
+    text-align: center; /* กำหนดให้ข้อความให้อยู่ตรงกลาง  */
 }
 
 @-moz-document url-prefix() {
-    fieldset { display: table-cell; }
+    fieldset { display: table-cell; } /*
 }
