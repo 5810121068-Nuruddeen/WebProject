@@ -2,7 +2,7 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Responsive -->
     <title>PSU Fitness</title>
     <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -11,20 +11,26 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <!-- navbar -->
+    <!-- navbar fixed บนสุดของหน้าจอ-->
+    <nav class="navbar navbar-default navbar-fixed-top"> <!-- navbar fixed บนสุดของหน้าจอ-->
         <div class="container-fluid">
             <div class="container">
+                <!-- ชื่อเว็บไซต์ -->
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">PSU Fitness</a>
                 </div>
                 <div>
+                    <!-- เมนูหลัก -->
                     <ul class="nav navbar-nav">
+                        <!-- ใส่ icon โดยใช้ class glyphicon ใช้รูปแบบ glyphicon-home -->
                         <li><a href="./"><span class="glyphicon glyphicon-home"> หน้าแรก</span></a></li>
                         <li><a href="./equipment.html">อุปกรณ์ฟิตเนส</a></li>
                         <li class="dropdown">
                             <a class="dropdown-toggle" data-toggle="dropdown" href="#">ข้อมูลผู้ใช้งาน <span class="caret"></span></a>
+                            <!-- เมนูย่อยข้อมูลผู้ใช้งาน -->
                             <ul class="dropdown-menu">
+                                <!-- ใส่ icon โดยใช้ class glyphicon -->
                                 <li><a href="./usability-table.html"><span class="glyphicon glyphicon-list-alt"> รายงานการใช้งาน</span></a></li>
                                 <li><a href="./usability-search.html"><span class="glyphicon glyphicon-search"> ค้นหาข้อมูลการใช้งาน</span></a></li>
                                 <li><a href="./statistics.html"><span class="glyphicon glyphicon-signal"> กราฟสถิติ</span></a></li>
@@ -35,6 +41,7 @@
                         <li><a href="./contact.html">ติดต่อ</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
+                        <!-- ใส่ icon โดยใช้ class glyphicon -->
                         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
                         <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
                     </ul>
@@ -43,43 +50,46 @@
         </div>
     </nav>
 
+    <!-- content -->
     <div id="content" class="container jumbotron">
-        <h2>อัลบั้มภาพ</h2>
+        <h2>บรรยากาศสถานที่ฟิตเนส</h2>
         <p>
 
+        <!-- อัลบั้มภาพ -->
+        <!-- ในแต่ละภาพเมื่อคลิก Browser จะเปิดภาพนั้นๆในหน้าต่างใหม่ -->
         </p>
         <div class="row">
             <div class="col-md-4">
-                <img src="images/fitness-1.jpg" class="img-responsive"><br />
+                <a href="./images/fitness-1.jpg" target="_blank"><img src="./images/fitness-1.jpg" class="img-responsive"></a><br />
             </div>
             <div class="col-md-4">
-                <img src="images/fitness-2.jpg" class="img-responsive"><br />
+                <a href="./images/fitness-2.jpg" target="_blank"><img src="./images/fitness-2.jpg" class="img-responsive"></a><br />
             </div>
             <div class="col-md-4">
-                <img src="images/fitness-3.jpg" class="img-responsive"><br />
+                <a href="./images/fitness-3.jpg" target="_blank"><img src="./images/fitness-3.jpg" class="img-responsive"></a><br />
             </div>
             <div class="col-md-4">
-                <img src="images/fitness-4.jpg" class="img-responsive"><br />
+                <a href="./images/fitness-4.jpg" target="_blank"><img src="./images/fitness-4.jpg" class="img-responsive"></a><br />
             </div>
             <div class="col-md-4">
-                <img src="images/fitness-5.jpg" class="img-responsive"><br />
+                <a href="./images/fitness-5.jpg" target="_blank"><img src="./images/fitness-5.jpg" class="img-responsive"></a><br />
             </div>
             <div class="col-md-4">
-                <img src="images/fitness-6.jpg" class="img-responsive"><br />
+                <a href="./images/fitness-6.jpg" target="_blank"><img src="./images/fitness-6.jpg" class="img-responsive"></a><br />
             </div>
         </div>
 
     </div>
 
+    <!-- footer -->
     <div id="footer" class="container-fluid footer">
         <div class="container copyright">
+            <!-- Copyright -->
             <p>
                 Copyright © 2015. ICTM Group, All rights reserved.<br />
                 Prince of Songkla University
             </p>
         </div>
-
-
     </div>
 
 
